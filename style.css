@@ -1,0 +1,115 @@
+.headBackGround {
+  background-image: url('images/HeaderBackground.jpg');
+}
+
+#dropdownMenuButton{
+  background-color: transparent;
+  border: transparent;
+  
+}
+.BlackShadow{
+  background-color: transparent;
+  border: transparent;
+  background: rgba(0, 0, 0, 0.5);
+}
+.ButtonColor{
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.ThirdPart{
+  color: white;
+  
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+.w3-tangerine {
+  font-family: "Tangerine", serif;
+  font-size: xx-large;
+  color: white;
+}
+
+.ContentFirst{
+  text-align: center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+#FoodList{
+  width: 100%;
+}
+
+
+.transparent{
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+
+.container {
+    position: relative;
+    width: 100%; /* Maximum width */
+
+    margin: 0 auto; /* Center it */
+  }
+  .container2 {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    height: 100px;
+
+    
+  }
+  .head1_1{
+    position: absolute; /* Position the background text */
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    height: 50px;
+  }
+
+  .head1_2{
+    position: absolute; /* Position the background text */
+    top: 50px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    height: 100px;
+  }
+
+  /* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
